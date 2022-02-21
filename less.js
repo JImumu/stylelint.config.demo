@@ -1,4 +1,4 @@
-// npm install stylelint-config-html postcss-less
+// npm install stylelint-config-html postcss-less postcss@^8 postcss-html 
 
 module.exports = {
   root: true,
