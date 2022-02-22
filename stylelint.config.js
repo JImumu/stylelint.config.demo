@@ -12,7 +12,20 @@
 
 module.exports = {
   root: true,
-  extends: ["stylelint-config-html"],
+  overrides: [
+    {
+      files: ["**/*.vue", "**/*.html"],
+      extends: ["stylelint-config-html"]
+    },
+    {
+      files: ["**/*.less"],
+      customSyntax: 'postcss-less'
+    },
+    {
+      files: ["**/*.scss"],
+      customSyntax: 'postcss-scss'
+    }
+  ],
   rules: {
     // "at-rule-blacklist": null,
     "at-rule-empty-line-before": "always",
