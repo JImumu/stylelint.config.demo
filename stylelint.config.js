@@ -28,9 +28,9 @@ module.exports = {
   ],
   rules: {
     // "at-rule-blacklist": null,
-    "at-rule-empty-line-before": "always",
-    "at-rule-name-case": "lower",
-    "at-rule-name-newline-after": "always-multi-line",
+    // "at-rule-empty-line-before": "always",
+    // "at-rule-name-case": "lower",
+    // "at-rule-name-newline-after": "always-multi-line",
     "at-rule-name-space-after": "always",
     // "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
