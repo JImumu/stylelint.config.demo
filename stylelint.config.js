@@ -2,9 +2,10 @@
 
 // stylelint src/**/*.{vue,html,scss,css} --fix
 
+// configureWebpack
 // new StylelintPlugin({
 //   files: 'src/**/*.{html,vue,css,scss}',
-//   fix: false,
+//   fix: true,
 //   cache: true,
 //   failOnError: false
 // })
