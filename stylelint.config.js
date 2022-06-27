@@ -1,8 +1,9 @@
-// npm install stylelint postcss@^8 stylelint-config-html postcss-html postcss-scss postcss-less stylelint-webpack-plugin
+// npm install stylelint postcss@^8 stylelint-config-html postcss-html postcss-scss postcss-less stylelint-webpack-plugin -D
 
 // stylelint src/**/*.{vue,html,scss,css} --fix
 
 // configureWebpack
+// const StylelintPlugin = require('stylelint-webpack-plugin')
 // new StylelintPlugin({
 //   files: 'src/**/*.{html,vue,css,scss}',
 //   fix: true,
