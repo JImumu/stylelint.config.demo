@@ -6,9 +6,9 @@
 // const StylelintPlugin = require('stylelint-webpack-plugin')
 // new StylelintPlugin({
 //   files: 'src/**/*.{html,vue,css,scss}',
-//   fix: true,
+//   fix: false,
 //   cache: true,
-//   failOnError: false
+//   failOnError: true
 // })
 
 
@@ -30,7 +30,7 @@ module.exports = {
   ],
   rules: {
     // "at-rule-blacklist": null,
-    // "at-rule-empty-line-before": "always",
+    "at-rule-empty-line-before": "never",
     // "at-rule-name-case": "lower",
     // "at-rule-name-newline-after": "always-multi-line",
     "at-rule-name-space-after": "always",
@@ -49,7 +49,7 @@ module.exports = {
     "block-opening-brace-newline-before": null,
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
-    "color-hex-case": "lower",
+    // "color-hex-case": "lower",
     "color-hex-length": "short",
     // "color-named": null,
     // "color-no-hex": null,
@@ -139,7 +139,7 @@ module.exports = {
     // "number-max-precision": null,
     "number-no-trailing-zeros": true,
     // "property-blacklist": null,
-    "property-case": "lower",
+    // "property-case": "lower",
     // "property-no-unknown": true,
     // "property-no-vendor-prefix": null,
     // "property-whitelist": null,
@@ -180,16 +180,16 @@ module.exports = {
     // "selector-no-qualifying-type": null,
     // "selector-no-vendor-prefix": null,
     // "selector-pseudo-class-blacklist": null,
-    "selector-pseudo-class-case": "lower",
+    // "selector-pseudo-class-case": "lower",
     // "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-class-parentheses-space-inside": "never",
     // "selector-pseudo-class-whitelist": null,
     // "selector-pseudo-element-blacklist": null,
-    "selector-pseudo-element-case": "lower",
+    // "selector-pseudo-element-case": "lower",
     // "selector-pseudo-element-colon-notation": null,
     "selector-pseudo-element-no-unknown": true,
     // "selector-pseudo-element-whitelist": null,
-    "selector-type-case": "lower",
+    // "selector-type-case": "lower",
     "selector-type-no-unknown": true,
     // "shorthand-property-no-redundant-values": null,
     "string-no-newline": true,
@@ -199,7 +199,7 @@ module.exports = {
     // "unit-case": null,
     // "unit-no-unknown": null,
     // "unit-whitelist": null,
-    "value-keyword-case": "lower",
+    // "value-keyword-case": "lower",
     "value-list-comma-newline-after": "never-multi-line",
     "value-list-comma-newline-before": "never-multi-line",
     "value-list-comma-space-after": "always",
